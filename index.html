@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mer om variabler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="btnContainer">
+            <div class="red" id="color1" onclick="changeSelectedColor('red', 'color1')"></div>
+            <div class="blue" id="color2" onclick="changeSelectedColor('blue', 'color2')"></div>
+            <div class="green" id="color3" onclick="changeSelectedColor('green', 'color3')"></div>
+        </div>
+
+        <button onclick="setBodyBackgroundColor()">Endre bakgrunnsfarge</button>
+
+        <div class="selected-color" id="selectedColorDiv"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
